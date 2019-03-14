@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JobAdvisor</string>
+    <string name="nom">Nom</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="trobar">Trobar</string>
+    <string name="empresa">Empresa</string>
+    <string name="lloc">Lloc</string>
+    <string name="buscar">Buscar</string>
+    <string name="busqueda_avancada">Búsqueda avançada</string>
+    <string name="title_activity_trobar_empresa">trobar_empresa</string>
+    <string name="sector">Sector</string>
+    <string name="poblacio">Població</string>
+    <string name="enviarOpinion">Enviar</string>
+    <string name="pros">Pros</string>
+    <string name="contras">Contres</string>
+    <string name="salari">Salari</string>
+    <string name="puntuacio">Puntuacio</string>
+    <string name="buscarOpinions">Búsqueda d'opinions</string>
+    <string name="novaOpinio">Nova opinió</string>
+    <string name="trobarEmpresa">Trobar Empresa</string>
+    <string name="opinio">Opinio</string>
+
+
+
+
+    <string name="preferencias_jobadvisor_file">PreferenciasJobAdvisor</string>
+    <string name="preferencias_nombre">nickname</string>
+    <string name="preferencias_mail">mail</string>
+</resources>

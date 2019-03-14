@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeleccioOpinio">
+
+    <EditText
+        android:id="@+id/editContrasResult"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="64dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProsResult" />
+
+    <EditText
+        android:id="@+id/editSalarioResult"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtSalario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtSalario" />
+
+    <TextView
+        android:id="@+id/txtProsResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/pros"
+        style="@style/TextEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPuntuacionResult" />
+
+    <TextView
+        android:id="@+id/txtContrasResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/contras"
+        style="@style/TextEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProsResult" />
+
+    <TextView
+        android:id="@+id/txtSalario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="116dp"
+        android:text="@string/salari"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtPuntuacionResult"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPuntuacionResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/puntuacio" />
+
+    <EditText
+        android:id="@+id/editPuntuacionResult"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        style="@style/TextEdit"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtPuntuacionResult"
+        app:layout_constraintStart_toEndOf="@+id/txtPuntuacionResult" />
+
+    <EditText
+        android:id="@+id/editProsResult"
+        android:layout_width="215dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="64dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        style="@style/TextEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPuntuacionResult" />
+
+    <TextView
+        android:id="@+id/texttitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="TextView"
+        style="@style/Titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
