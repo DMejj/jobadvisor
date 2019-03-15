@@ -42,11 +42,11 @@ public class BuscarOpinions extends AppCompatActivity {
 
     public void busquedaOpinions(View view){
         Intent i = new Intent(BuscarOpinions.this, ResultatsOpinions.class);
-        startActivity(i);
         Bundle b = new Bundle();
         b.putString("nomEmpresa",nomEmpresa);
         b.putInt("idEmpresa",idEmpresa);
         i.putExtras(b);
+        startActivity(i);
     }
 
     public void novaOpinio(View view) {
